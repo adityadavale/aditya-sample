@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import IncrementBtn from './incrementCounter';
+import DisplayName from './nameDisplay';
+import Takeinput from './takeInput';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+    {/* <App /> */}
+    <IncrementBtn />
+    <DisplayName initialname="WelCome Aditya" />
+    <Takeinput />
+
+  </>
+  ,
   document.getElementById('root')
 );
 
